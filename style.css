@@ -1,0 +1,100 @@
+body {
+    font-family: "Roboto";
+}
+
+.chatboxholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    border: 2px solid  #dedede;
+    background-color: #f1f1f1;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+.container .messagecontent {
+    display: flex;
+    flex-direction: column;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.container img {
+    float: left;
+    max-width: 60px;
+    max-height: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container p {
+    margin: 0px;
+}
+
+.ugly {
+    font-weight: bolder;
+    font-size: 24px;
+    color: blue;
+}
+
+.container .username {
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.linebreak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border-top: 2px solid;
+    height: 0;
+    margin: 6px 0;
+}
+
+.linebreak p {
+    background-color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.newspaper {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    background-color: antiquewhite;
+    margin: 10px 0;
+    padding: 0 10px;
+    box-shadow: 4px 4px 0 rgba(0, 0, 0, .5);
+}
+
+.newspaper h1 {
+    font-size: larger;
+    margin-bottom: 0;
+}
+
+.sysmessage {
+    width: 400px;
+    background-color: indianred;
+    border-radius: 4px;
+    display: flex;
+}
+
+.sysmessage p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
