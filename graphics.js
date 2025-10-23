@@ -66,7 +66,7 @@ function createMessageHTML(username, message, font) {
 
 function createNewsHTML(headline, news) {
     const container = document.createElement('div');
-    container.className = 'container';
+    container.className = 'container newspaper';
 
     const headlineFixed = String(headline).trim().toLowerCase().replace(/\s+/g, '').replace('.', '');
     const imgPath = `./images/${headlineFixed}.jpg`;
