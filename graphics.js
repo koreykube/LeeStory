@@ -64,6 +64,27 @@ function createMessageHTML(username, message, font) {
     return wrapper;
 }
 
+function createNewsHTML(headline, news) {
+    const container = document.createElement('div');
+    container.className = 'container';
+
+    const headlineFixed = String(headline).trim().toLowerCase().replace(/\s+/g, '').replace('.', '');
+    const imgPath = `./images/${headlineFixed}.jpg`;
+
+    container.innerHTML = `
+        <div class="messagecontent">
+            <p class="username">${headline}</p>
+            <p>${news}</p>
+        </div>
+        <img class="newsimage" src="${imgPath}" alt="News Image" onerror="this.onerror=null;this.src='./images/default.jpg';">
+    `;
+
+    const wrapper = document.createElement('div');
+    wrapper.appendChild(container);
+
+    return wrapper;  
+}
+
 function createTimestampHTML(timestring) {
     const container = document.createElement('div');
     container.className = "linebreak";
@@ -73,17 +94,17 @@ function createTimestampHTML(timestring) {
     return wrapper;
 }
 
-function createNewsHTML(headline, news) {
-    if(headline == "") {
-        headline = "Temp Headline";
-    }
-    const container = document.createElement('div');
-    container.className = "newspaper";
-    const wrapper = document.createElement('div');
-    container.innerHTML = `<h1>${headline}</h1><p>${news}</p>`;
-    wrapper.appendChild(container);
-    return wrapper;
-}
+// function createNewsHTML(headline, news) {
+//     if(headline == "") {
+//         headline = "Temp Headline";
+//     }
+//     const container = document.createElement('div');
+//     container.className = "newspaper";
+//     const wrapper = document.createElement('div');
+//     container.innerHTML = `<h1>${headline}</h1><p>${news}</p>`;
+//     wrapper.appendChild(container);
+//     return wrapper;
+// }
 
 function createSystemMessage(message) {
     const container = document.createElement('div');
