@@ -2,16 +2,16 @@ name,type,font,message
 First contact at last.,news,default,After a protracted period of communication we have finally been visited in-person by our interstellar neighbours. The landing occurred on…
 timestamp,time,default,Friday 3:00 am
 E,chat,default,"Guys, what the fuck"
-E,chat,ugly,Aliens!!
-E,chat,default,@ all users Why aren’t we talking about this?
+E,chat,default,Aliens!!
+E,chat,default,@all users Why aren’t we talking about this?
 A,chat,default,"It’s 3am, go to sleep."
 Revelations old and new.,news,default,"In an official statement, it has been confirmed that the extraterrestrials are humans themselves. This seemingly confirms what was first theorised by evolutionary biologists over a century ago, that earth is not humanity’s true planet of origin. More details are forthcoming…"
 Timestamp,time,default,Friday 4:00 am
 E,chat,default,Is anyone awake yet?
-E,chat,bolded,@ all users C’mon get up
+E,chat,default,@all users C’mon get up
 H,chat,default,slep
 N,chat,default,I have the morning shift today
-E,chat,default,@ all users I can’t be the only one freaking out about this
+E,chat,default,@all users I can’t be the only one freaking out about this
 systemmessage, sysmessage,default, [User E has been suspended for 180 mins]
 N,chat,default,Thank you
 A,chat,default,We have enough on our plate already.
