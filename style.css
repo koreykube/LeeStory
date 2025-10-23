@@ -1,5 +1,6 @@
 body {
     font-family: "Roboto";
+    background-color:#f8f8f8;
 }
 
 .chatboxholder {
@@ -44,12 +45,6 @@ body {
     margin: 0px;
 }
 
-.ugly {
-    font-weight: bolder;
-    font-size: 24px;
-    color: blue;
-}
-
 .container .username {
     font-weight: bold;
     margin-bottom: 12px;
@@ -75,10 +70,10 @@ body {
     display: flex;
     flex-direction: column;
     width: 700px;
-    background-color: antiquewhite;
+    background-color: white;
+    border: 2px solid  #dedede;
     margin: 10px 0;
     padding: 0 10px;
-    box-shadow: 4px 4px 0 rgba(0, 0, 0, .5);
 }
 
 .newspaper h1 {
@@ -87,9 +82,11 @@ body {
 }
 
 .sysmessage {
-    width: 400px;
-    background-color: indianred;
-    border-radius: 4px;
+    width: 500px;
+    background-color: white;
+    border: 2px solid  #dedede;
+    border-radius: 10px;
+    margin: 10px 0;
     display: flex;
 }
 

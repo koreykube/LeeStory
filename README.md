@@ -15,4 +15,4 @@ python -m http.server 8000
 ```
 localhost:8000
 ```
-The webpage should now be loaded! Remember, if you make edits, the old version may stay cached in your browser. Simply use **CTRL+F5** to refresh the page with a cleared cache.
+The webpage should now be loaded! Remember, if you make edits, the old version may stay cached in your browser. Simply use **CTRL+Fn+F5** to refresh the page with a cleared cache.
