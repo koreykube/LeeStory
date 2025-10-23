@@ -43,6 +43,10 @@ body {
 
 .container img.newsimage {
     margin: 0 0 0 0;
+    max-width: 160px;
+    max-height: 160px;
+    height: auto;
+    border-radius: 12px;
 }
 
 .container p {
@@ -65,7 +69,7 @@ body {
 }
 
 .linebreak p {
-    background-color: white;
+    background-color: #f8f8f8;
     padding-left: 4px;
     padding-right: 4px;
 }
