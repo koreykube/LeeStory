@@ -26,12 +26,6 @@ body {
     flex-direction: column;
 }
 
-.container::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
 .container img {
     float: left;
     max-width: 60px;
@@ -87,6 +81,29 @@ body {
 .newspaper h1 {
     font-size: larger;
     margin-bottom: 0;
+}
+
+.pm {
+    background-color: darkmagenta;
+    color: white;
+    border-radius: 24px;
+    padding: 16px 18px;
+    width: 320px;
+}
+
+.pm p.username {
+    margin: 0px;
+    font-size: x-small;
+}
+
+.left {
+    margin-left: -150px;
+}
+
+.right {
+    margin-right: -150px;
+    background-color: crimson;
+    text-align: right;
 }
 
 .sysmessage {

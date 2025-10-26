@@ -64,6 +64,23 @@ function createMessageHTML(username, message, font) {
     return wrapper;
 }
 
+function createPmHTML(username, message, side) {
+    const container = document.createElement('div');
+    container.className = `container pm ${side}`;
+
+    container.innerHTML = `
+        <div class="messagecontent">
+            <p class="username">${username}</p>
+            <p>${message}</p>
+        </div>
+    `;
+
+    const wrapper = document.createElement('div');
+    wrapper.appendChild(container);
+
+    return wrapper;
+}
+
 function createNewsHTML(headline, news) {
     const container = document.createElement('div');
     container.className = 'container newspaper';
@@ -93,18 +110,6 @@ function createTimestampHTML(timestring) {
     wrapper.appendChild(container);
     return wrapper;
 }
-
-// function createNewsHTML(headline, news) {
-//     if(headline == "") {
-//         headline = "Temp Headline";
-//     }
-//     const container = document.createElement('div');
-//     container.className = "newspaper";
-//     const wrapper = document.createElement('div');
-//     container.innerHTML = `<h1>${headline}</h1><p>${news}</p>`;
-//     wrapper.appendChild(container);
-//     return wrapper;
-// }
 
 function createSystemMessage(message) {
     const container = document.createElement('div');
@@ -136,6 +141,15 @@ function loadMessagesIntoChatbox(data) {
         } else if (type === "sysmessage") {
             const sysmessageHTML = createSystemMessage(message);
             chatbox.appendChild(sysmessageHTML);
+        } else if (type.includes("pm")) {
+            if(type.includes("left")) {
+                const pmHTML = createPmHTML(username, message, "left")
+                chatbox.appendChild(pmHTML);
+            } else {
+                const pmHTML = createPmHTML(username, message, "right")
+                chatbox.appendChild(pmHTML);
+            }
+            
         } else {
             const messageHTML = createMessageHTML(username, message, font);
             chatbox.appendChild(messageHTML);
