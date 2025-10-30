@@ -146,7 +146,7 @@ Hazel,chat,default,I’ll see you all at 11.
 timestamp,time,default,11:00am
 systemmessage,sysmessage,default,"[User <b>Stella</b>, user <b>Darren</b>, and user <b>Nora</b>'s suspension has ended]"
 timestamp,time,default,11:02am
-S,chat,default,"Hey D, what did you think I meant when I said “I still can’t believe this”?"
+Stella,chat,default,"Hey D, what did you think I meant when I said “I still can’t believe this”?"
 Darren,chat,default,I guess it's not so much about what I can't believe
 Darren,chat,default,More like
 Darren,chat,default,I can't <i>accept</i> all of this.

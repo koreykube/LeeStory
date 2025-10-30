@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto";
     background-color:#f8f8f8;
+    margin: 0px;
 }
 
 .bigtext {
@@ -146,4 +147,12 @@ body {
 .privatesysmessage {
     width: 400px;
     font-size: large;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 6px;
+    padding-left: 18px;
+    margin-top: 32px;
+    bottom: 0;
 }
