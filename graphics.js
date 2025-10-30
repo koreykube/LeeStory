@@ -64,6 +64,27 @@ function createMessageHTML(username, message, font) {
     return wrapper;
 }
 
+function createPrivateMessageHTML(username, message) {
+    const container = document.createElement('div');
+    container.className = 'container private';
+
+    const unameFixed = String(username).trim().toLowerCase().replace(/\s+/g, '');
+    const imgPath = `./images/${unameFixed}.jpg`;
+
+    container.innerHTML = `
+        <img src="${imgPath}" alt="User Image" onerror="this.onerror=null;this.src='./images/default.jpg';">
+        <div class="messagecontent">
+            <p class="username">${username}</p>
+            <p>${message}</p>
+        </div>
+    `;
+
+    const wrapper = document.createElement('div');
+    wrapper.appendChild(container);
+
+    return wrapper;
+}
+
 function createPmHTML(username, message, side) {
     const container = document.createElement('div');
     container.className = `container pm ${side}`;
@@ -111,11 +132,23 @@ function createTimestampHTML(timestring) {
     return wrapper;
 }
 
-function createSystemMessage(message) {
+function createSystemMessage(message, font) {
     const container = document.createElement('div');
     container.className = "sysmessage";
+    if (font.includes("private")) {
+        container.className = "sysmessage privatesysmessage";
+    }
     const wrapper = document.createElement('div');
     container.innerHTML = `<p>${message}</p>`;
+    wrapper.appendChild(container);
+    return wrapper;
+}
+
+function createBigText(text) {
+    const container = document.createElement('div');
+    container.className = "bigtext";
+    const wrapper = document.createElement('div');
+    container.innerHTML = `<p>${text}</p>`;
     wrapper.appendChild(container);
     return wrapper;
 }
@@ -139,7 +172,7 @@ function loadMessagesIntoChatbox(data) {
             const newsHTML = createNewsHTML(username, message);
             chatbox.appendChild(newsHTML);
         } else if (type === "sysmessage") {
-            const sysmessageHTML = createSystemMessage(message);
+            const sysmessageHTML = createSystemMessage(message, font);
             chatbox.appendChild(sysmessageHTML);
         } else if (type.includes("pm")) {
             if(type.includes("left")) {
@@ -150,6 +183,12 @@ function loadMessagesIntoChatbox(data) {
                 chatbox.appendChild(pmHTML);
             }
             
+        } else if (type.includes("bigtext")) {
+            const bigTextHTML = createBigText(username);
+            chatbox.appendChild(bigTextHTML);
+        } else if (type.includes("prchat")) {
+            const privateChatHTML = createPrivateMessageHTML(username, message);
+            chatbox.appendChild(privateChatHTML);
         } else {
             const messageHTML = createMessageHTML(username, message, font);
             chatbox.appendChild(messageHTML);

@@ -1,21 +1,284 @@
 name,type,font,message
 First contact at last.,news,default,After a protracted period of communication we have finally been visited in-person by our interstellar neighbours. The landing occurred on…
 timestamp,time,default,Friday 3:00 am
-E,chat,default,"Guys, what the fuck"
-E,chat,default,Aliens!!
-E,chat,default,@all users Why aren’t we talking about this?
-A,chat,default,"It’s 3am, go to sleep."
+Emily,chat,default,"Guys, what the fuck"
+Emily,chat,default,Aliens!!
+Emily,chat,default,<b>@all users</b> Why aren’t we talking about this?
+Amanda,chat,default,"It’s 3am, go to sleep."
 Revelations old and new.,news,default,"In an official statement, it has been confirmed that the extraterrestrials are humans themselves. This seemingly confirms what was first theorised by evolutionary biologists over a century ago, that earth is not humanity’s true planet of origin. More details are forthcoming…"
-H,pmleft,default,"Hey, are you up?"
-A,pmright,default,"Leave me alone.... does this fix it?bdjsbajdknsakjdnkjasndkjsn nbjdksnakjn n djksnadkjn jkas nkjad"
-H,pmleft,default,"Someone is grumpy. Fine, message you later"
-Timestamp,time,default,Friday 4:00 am
-E,chat,default,Is anyone awake yet?
-E,chat,default,@all users C’mon get up
-H,chat,default,slep
-N,chat,default,I have the morning shift today
-E,chat,default,@all users I can’t be the only one freaking out about this
-systemmessage, sysmessage,default, [User E has been suspended for 180 mins]
-N,chat,default,Thank you
-A,chat,default,We have enough on our plate already.
-H,chat,default,Yep
+timestamp,time,default,Friday 4:00 am
+Emily,chat,default,Is anyone awake yet?
+Emily,chat,default,<b>@all users</b> C’mon get up
+Hazel,chat,default,slep
+Nora,chat,default,I have the morning shift today
+Emily,chat,default,<b>@all users</b> I <i>can’t</i> be the only one freaking out about this
+systemmessage,sysmessage,default,[User <b>Emily</b> has been suspended for 180 mins]
+Nora,chat,default,Thank you
+Amanda,chat,default,We have enough on our plate already.
+Hazel,chat,default,Yep
+timestamp,time,default,4:15am
+Hazel,chat,default,…
+timestamp,time,default,4:30am
+Hazel,chat,default,…
+Hazel,chat,default,I can’t sleep
+Nora,chat,default,Same
+Amanda,chat,default,*sigh of frustration / defeat*
+systemmessage,sysmessage,default,[User <b>Emily</b>’s suspension has been lifted]
+Amanda,chat,default,Touch the @ key one more time and I’ll suspend you for a month.
+Emily,chat,default,Understood
+Emily,chat,default,"Sorry guys, I’ve been so busy this week that I forgot the first contact was scheduled for tonight. My bad."
+Amanda,chat,default,Do we know where they touched down?
+Hazel,chat,default,EU
+Amanda,chat,default,The Americans are probably seething right now.
+Hazel,chat,default,"Heh, yea"
+Emily,chat,default,"Ok, I know this is pretty hypocritical of me but I also have work in the morning"
+Nora,chat,default,Dude FR?
+Darren,chat,default,Oh fuck off mate
+Hazel,chat,default,Darren you’re up??
+Darren,chat,default,Not anymore
+Darren,chat,default,Goodnight
+Amanda,chat,default,"Look, you know what guys it's Friday today. I reckon we should all keep our noses to the grindstone today and then talk about the aliens on Saturday when we are all free from work. Sound good?"
+Nora,chat,default,Sure
+Emily,chat,default,Kapiche
+Hazel,chat,default,I agree
+Amanda,chat,default,"Besides, by then the situation will have developed and there will be more to talk about."
+timestamp,time,default,12:00pm
+A Revelation,news,default,"<p>In a statement today the extraterrestrial visitors have confirmed that they and us are the same species. They claim the people of earth are descendents of a luddite group who came to this planet and subsequently erased all records of their technology, history and language. Sending themselves back to the stone age. </p><p>This news however pales when compared to the revelation that we are one of nearly a hundred planets where this practice occurred. Each of these planets were also discovered after they invented radio waves, re-contacted, and subsequently integrated into galactic society. However, our planet is said to have something that makes it unique amongst all the others. In fact, it breaks a pattern that was thought universal to human civilisations up until this point. </p><p>Our visitors say that it is “unprecedented” for a human society to be so close to collapse by the time they invent the microchip, let alone the internet. In particular, they said we are “the first observed instance of a human civilisation that hasn’t eliminated world hunger, climate change and political instability by this stage in [our] development cycle”. Our visitors say that it is “unprecedented” for a human society to be so close to collapse by the time they invent the microchip, let alone the internet. In particular, they said we are “the first observed instance of a human civilisation that hasn’t eliminated world hunger, climate change and political instability by this stage in [our] development cycle”. </p><p>A number of documents corroborating this claim have been made available to the UN and are due to be declassified for public viewing in Australia by the end of the day."
+Timestamp,time,default,8:00am - Saturday
+Hazel,chat,default,"<b>@all users</b> show of hands, who wants to start the conversation."
+Emily,chat,default,🤚
+Darren,chat,default,🤚
+Stella,chat,default,What’s this about?
+Darren,chat,default,Read the messages from Friday morning
+Stella,chat,default,Gotcha
+Nora,chat,default,Where’s Amanda?
+Hazel,chat,default,"IDK, I’ve tried calling but she won’t answer"
+Darren,chat,default,"Ah, so she’s ghosted you too"
+Hazel,chat,default,"Emily, you can go first"
+Emily,chat,default,Ok. So like. Wow. I mean… How am I even supposed to react to that? No matter how many other people repeat it it doesn’t seem quite real.
+Stella,chat,default,It might not be
+Darren,chat,default,Stella don’t you even
+Emily,chat,default,<u>please_please_shut_up</u>.jpg
+Amanda,chat,default,Knows not the time for your conspcy theries
+Amanda,chat,default,"Hi, srry I’m late"
+Hazel,chat,default,You okay? We’ve been trying to reach you
+Amanda,chat,default,"Im fine, see:"
+Amanda,chat,default,<u>camera_roll12442</u>.png
+Darren,chat,default,"Seriously, do you wake up like that?"
+Emily,chat,default,"Damn, you need to tell me your makeup routine."
+Stella,chat,default,Are you sure you sent us the right photo?
+Amanda,chat,default,Just tired
+Amanda,chat,default,U guys keep tawking. I’ll work out how to
+Nora,chat,default,Hello?
+Amanda,chat,default,Get spelcheck on.
+Stella,chat,default,Amanda are you good?
+Stella,chat,default,Amanda?
+Nora,chat,default,"Honestly, I’m surprised she wasn’t already using autocorrect. I don’t think I’ve ever seen her make a typo before."
+Emily,chat,default,"I’ve been reading the released documents. I’d always figured that Australia was like… could be better, could be worse? But according to this stuff even this place would look like a 2nd or 3rd world country on one of these other planets. Let alone a country like America."
+Darren,chat,default,Is it because of resources? Maybe the other planets had more farmable land than we do?
+Amanda,chat,default,"I’ve checked. Some of them have better or worse ecology, one of them has an atmosphere that’s much more corrosive, another had twice the population as us and they still made do with the same amount of arable land. So resources aren't a contributing factor."
+Stella,chat,default,So is this a good thing or a bad thing?
+Hazel,chat,default,Your sounding better
+Amanda,chat,default,That’s the million dollar question.
+Amanda,chat,default,Thank you.
+systemmessage,sysmessage,privatechat,"[Private chat]"
+Hazel,prchat,default,Hey
+Amanda,prchat,default,?
+Hazel,prchat,default,"I recognise the photo you sent to the main chat, it’s from a week ago."
+Amanda,prchat,default,ye
+Hazel,prchat,default,How are you actually feeling?
+Amanda,prchat,default,here
+Amanda,prchat,default,<u>camera_roll12458</u>.png
+Hazel,prchat,default,"Christ, you look like death"
+Amanda,prchat,default,feels like
+Hazel,prchat,default,Do you want to talk about it?
+Amanda,prchat,default,later
+timestamp,time,default,9:12am
+Emily,chat,default,I think we should be looking at the bright side.
+Darren,chat,default,What’s that?
+Emily,chat,default,"If we’re the worst version of humanity, then that means the only way to go is up. =)"
+Darren,chat,default,So we’re <i>all</i> terrible?
+Emily,chat,default,I didn’t say that
+Amanda,chat,default,You literally just did
+Nora,chat,default,"Statistically, I don’t think it says anything about us."
+Nora,chat,other,"If I roll a twenty sided dice one hundred times and 99 of them are higher than ten, what does that mean for the other roll?"
+Darren,chat,default,You copied and pasted that.
+Nora,chat,default,No
+Nora,chat,default,Yes
+Nora,chat,default,What of it?
+Hazel,chat,default,Are you trying to say it’s just bad luck?
+Nora,chat,default,"Kind of, it’s more like if I flip three coins while hoping for heads and one of them land on tails, should I throw that coin away?"
+Emily,chat,default,"So we’re not <i>inherently</i> worse, it's just factors outside our control?"
+Nora,chat,default,Exactly.
+Amanda,chat,default,That sounds like an excuse.
+Darren,chat,default,<i>That</i> sounds like an accusation.
+Nora,chat,default,What am I excusing?
+Amanda,chat,default,I don’t know! But shouldn’t there be someone who needs to be held accountable?
+Nora,chat,default,Like who? And for what?
+Amanda,chat,default,I’m logging off. H gets Admin privileges while I’m gone.
+Nora,chat,default,Hello?
+timestamp,time,default,9:47am
+Nora,chat,default,Did I say something wrong?
+Hazel,chat,default,I think she just needs some space.
+Emily,chat,default,"Somehow, this all feels even more distressing than when I logged on."
+Stella,chat,default,So… maybe we stop talking about it?
+Emily,chat,default,"You guys can keep talking, I’m gonna go get some air."
+Darren,chat,default,Anyone else want to bail?
+Hazel,chat,default,I cleared my schedule in advance so it’s all good.
+Stella,chat,default,I mean I wanted a chance to talk about some stuff.
+Nora,chat,default,I’ll stay for another 20.
+Darren,chat,default,Cool.
+Hazel,chat,default,"Stella and Darren, how are you guys coping?"
+Stella,chat,default,Even with the documents released I still can’t believe this.
+Darren,chat,default,I know what you mean.
+Darren,chat,default,Wait.
+Darren,chat,default,Which part?
+Stella,chat,default,I think we <i>did</i> come from Earth.
+Nora,chat,default,Dude for real? This again?
+Stella,chat,default,Hear me out.
+Nora,chat,default,"We have no common ancestors with other creatures on this planet and our fossil records only go back 15,000 years. Isn’t that enough?"
+Stella,chat,default,"Yeah that’s the point, we don’t know what happened before then."
+Darren,chat,default,<i>Human</i> fossil records. Most other creatures have evidence going back to the dawn of time. Did you even finish high school?
+Nora,chat,default,"The other humans say they have mammals on their home planet called apes, which fill our hole in the evolutionary tree."
+systemmessage,sysmessage,default,"[User <b>Stella</b>, user <b>Darren</b>, and user <b>Nora</b> have been suspended for 30 minutes]"
+Hazel,chat,default,Guys this conversation isn’t worth it.
+Hazel,chat,default,I’ll see you all at 11.
+timestamp,time,default,11:00am
+systemmessage,sysmessage,default,"[User <b>Stella</b>, user <b>Darren</b>, and user <b>Nora</b>'s suspension has ended]"
+timestamp,time,default,11:02am
+S,chat,default,"Hey D, what did you think I meant when I said “I still can’t believe this”?"
+Darren,chat,default,I guess it's not so much about what I can't believe
+Darren,chat,default,More like
+Darren,chat,default,I can't <i>accept</i> all of this.
+Stella,chat,default,Right
+Stella,chat,default,I get you.
+Darren,chat,default,I’m not sure you guys do.
+Hazel,chat,default,"Yes. Not to speak for him or anything, but I think what Darren means by that is a bit different from what you would mean by that."
+Darren,chat,default,Sort of.
+Darren,chat,default,Is it okay if I rant for a bit?
+Stella,chat,default,Sure
+Hazel,chat,default,Absolutely
+Darren,chat,default,"The way everyone is reacting to them, the aliens, is just overall wrong."
+Stella,chat,default,How so?
+Darren,chat,default,Don’t interrupt me. All the news channels and Facebook groups are projecting some kind of wisdom and superiority onto them.
+Darren,chat,default,Like we should look up to them.
+Darren,chat,default,"But thinking about it for a moment, what is there to look up to?"
+Darren,chat,default,Do you think that if they were in our shoes could they have made it as far as we did?
+Stella,chat,default,I thought we'd ruled out environmental factors as the reason for why they did better than us.
+Darren,chat,default,But if they were lucky enough to be born here on Earth instead of on a planet where everything is easy how would they have managed? Everyday we do things to survive that they couldn't even imagine.
+Darren,chat,default,And now people are looking up to them like they're the ones who are going to fix our problems.
+Hazel,chat,default,"I'm hearing your point and I understand, but maybe we should focus on other things. Like the fact that their first impulse after seeing what life is like for <i>us</i> was to work out how they could help us, their fellow humans."
+Darren,chat,default,"They're not human though, that's the point I'm getting to! They don't know what it's like to fear for your life when you're walking home at night. They don't know what it's like to choose between a visit to your mother's house and being able to pay next week's rent."
+Hazel,chat,default,Don’t take this the wrong way but you're starting to sound like a supremacist or something.
+Stella,chat,default,And if you’re about to start spitting right wing talking points then I don’t think <i>either</i> of us want to talk with you.
+Hazel,chat,default,Yeah. Like maybe just re-read what you’ve written and you’ll see things from our perspective?
+Hazel,chat,default,Hello?
+timestamp,time,default,12:00am
+Hazel,chat,default,Hello?
+timestamp,time,default,12:15am
+Hazel,chat,default,<b>@Darren</b> are you there?
+Stella,chat,default,I think he’s gone
+Hazel,chat,default,fuck
+timestamp,time,default,6:00pm
+Hazel,pmleft,default,Amanda?
+Hazel,pmleft,default,Are you here? I haven't seen you yet.
+Amanda,pmright,default,?
+Hazel,pmleft,default,"At the rally, I mean."
+Amanda,pmright,default,No
+Hazel,pmleft,default,You decided not to?
+Amanda,pmright,default,What’s the point even?
+Hazel,pmleft,default,But you love being a part of this!
+Hazel,pmleft,default,You’ve attended every climate rally since we first heard about them!
+Hazel,pmleft,default,Even the ones I wasn’t around for.
+Hazel,pmleft,default,Is it because you’re resentful of the ET’s?
+Hazel,pmleft,default,D said something similar to that. He seemed really torn up about it.
+Amanda,pmright,default,It’s not that
+Hazel,pmleft,default,"Ok, what is it?"
+Amanda,pmright,default,I’ve been having these thoughts
+Amanda,pmright,default,Since the news happened
+Amanda,pmright,default,What if we deserve this?
+Hazel,pmleft,default,You’re not sounding like yourself.
+Amanda,pmright,default,Maybe climate change is the universe's way of correcting itself?
+Amanda,pmright,default,Wiping the mistake that is Earth off the map
+Hazel,pmleft,default,"Amanda, are you saying that you think you deserve to die?"
+Amanda,pmright,default,I don’t want to think that
+Amanda,pmright,default,I’ve never wanted to think like that
+Amanda,pmright,default,but it’s starting to feel like a logical conclusion
+Amanda,pmright,default,There has to be something that sets our version of humanity apart from the others
+Amanda,pmright,default,Something that makes us inherently worse
+Amanda,pmright,default,"And whatever it is, I have it as well"
+Hazel,pmleft,default,"And I’m sure the people at this rally are thinking it too. But we’re all here regardless, trying to put one foot in front of the other."
+Hazel,pmleft,default,"I won’t say that there isn’t something socially or biologically wrong with everyone on Earth, because I don’t know."
+Hazel,pmleft,default,"But personally, I think there's something far more important we've ignored about this."
+Amanda,pmright,default,What's that?
+Hazel,pmleft,default,A better world is possible.
+Hazel,pmleft,default,You showed me how important it was to have faith in that. Now we have the evidence to support it.
+Hazel,pmleft,default,"Hell, maybe that’s the reason why things have been so shit up until now."
+Hazel,pmleft,default,We need someone to show us what is possible if only we have hope.
+Hazel,pmleft,default,Just like you did for me when we first met.
+Amanda,pmright,default,"Ok, thank you."
+Amanda,pmright,default,I think I needed that
+Hazel,pmleft,default,You’re welcome.
+Amanda,pmright,default,I’m still not feeling super hot though.
+Hazel,pmleft,default,"Don’t worry babe, you’re always hot😉."
+Amanda,pmright,default,Oh hardy ha ha.
+Amanda,pmright,default,But seriously though.
+Amanda,pmright,default,I don’t think I have energy for the rally right now.
+Amanda,pmright,default,You said D was “pretty torn up” about something?
+Hazel,pmleft,default,"Read the past messages, you’ll get the idea."
+Amanda,pmright,default,Reading it.
+Amanda,pmright,default,Oh.
+timestamp,time,default,11:20pm
+Amanda,chat,default,<b>@Darren</b>
+Amanda,chat,default,"I know it’s pretty late, but can we talk?"
+Amanda,chat,default,Please?
+Darren,chat,default,What about?
+Amanda,chat,default,I want to hear more about that stuff you talked to Stella and Hazel about earlier.
+Stella,chat,default,"Hey guys. I just realised Veronica hasn't gotten a baby shower yet, should we start planning that?"
+Darren,chat,default,You disapprove?
+Amanda,chat,default,I’ve decided not to form an opinion until I’ve heard more.
+Stella,chat,default,"It’s not like I need an answer by the end of the day, but we should be talking about it right now shouldn't we?"
+systemmessage,sysmessage,privatechat,"[Private chat]"
+Hazel,prchat,default,"Stella, what are you doing?"
+Stella,prchat,default,I’m trying to steer the conversation in a more peaceful direction.
+Hazel,prchat,default,"I appreciate that you’re trying to de-escalate things, but have some faith in Amanda. We made her the admin for a reason, didn’t we?"
+Stella,prchat,default,It just feels like I’m responsible.
+Stella,prchat,default,"For what happened with Darren, I mean."
+Hazel,prchat,default,You're not.
+timestamp,time,default,11:30pm
+Darren,chat,default,What is there left to say?
+Amanda,chat,default,"I want to know how it makes you feel, then."
+Darren,chat,default,"It makes me feel like no one agrees with me, including you."
+Amanda,chat,default,I don’t think it’s important whether or not I agree. You’re my friend. If this is affecting you then I want to hear about it.
+Darren,chat,default,At least someone does.
+Darren,chat,default,"Seriously, it’s like people are just lying down and taking it."
+Darren,chat,default,The aliens should feel ashamed of meeting us! Not the other way around.
+Amanda,chat,default,Are you saying you feel ashamed?
+Amanda,chat,default,Darren?
+Amanda,chat,default,"I’m sorry, I feel like I spoke out of turn."
+Emily,chat,default,"I should be sorry, not you Amanda."
+Stella,chat,default,You’re back!
+Emily,chat,default,I’m sorry for what I said before Amanda left. I’ve never wanted any of you to be ashamed of yourselves.
+Emily,chat,default,I love all of you.
+Amanda,chat,default,"Thanks, we love you too."
+Stella,chat,default,Yeah!!!!!!!!!
+Darren,chat,default,"If not, how should we feel?"
+Amanda,chat,default,"I don’t know, but I know they're not trying to hurt us."
+Darren,chat,default,So you’re saying it’s not fair for me to resent them? That I should just sit with my feelings in silence?
+Emily,chat,default,"Genuinely, who suggested you should bottle up your feelings?"
+Emily,chat,default,Tell us so we can beat them up!
+Darren,chat,default,I don’t think it’s a conversation I’m ready to have here. This space can sometimes feel a bit… impersonal?
+Hazel,chat,default,How about we meet at my house tomorrow? I just had my living room redone.
+Darren,chat,default,Works for me.
+Amanda,chat,default,I can come too
+Stella,chat,default,Ditto
+Emily,chat,default,I’ll contact Nora
+Hazel,chat,default,Sounds like a plan.
+Amanda,chat,default,Goodnight!
+Thanks for Reading! ,bigtext,default,<p> </p><p> </p><p> </p><p> </p><p> </p>
+timestamp,time,default,3:00am - Monday
+Darren,chat,default,<b>@Emily</b>
+Darren,chat,default,<b>@Emily</b>
+Darren,chat,default,<b>@Emily</b>
+Emily,chat,default,GO. THE. FUCK. TO. SLEEP.
+Darren,chat,default,lmao
